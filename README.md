@@ -37,7 +37,8 @@ can be in any order
 ### Requirements:
 Python 3.7+
 
-### Sample JSON:  
+### Sample JSON:
+<pre>
 { 
   "grid": "*******************.****.",  
   "gridsize": "5x5"  
@@ -47,41 +48,43 @@ Python 3.7+
   "gridsize": "7x7"  
 }  
 {
-  "gridsize": "5x5",  
-  "grid": "***************.***..***.",  
-  "date": "10/23",  
-  "solution": "ANISECIDERKNEES.JAY..ALA.",  
-  "perms": "reed|right",  
-  "city": "Tucson"  
+ "gridsize": "5x5",  
+ "grid": "***************.***..***.",  
+ "date": "10/23",  
+ "solution": "ANISECIDERKNEES.JAY..ALA.",  
+ "perms": "reed|right",  
+ "city": "Tucson"  
 }  
 {
-  "gridsize": "15x15",  
-  "source": "Games Magazine, Aug 2011, p 19",  
-  "grid": "*****.*****.********.*****.**************.***..****.***.***********.***********.****.****.***.****.***....*************....***.****.***.****.****.***********.***********.***.****..***.**************.*****.********.*****.*****",  
-  "gridlets": {
-     "21": "B",
-     "50": "N",
-     "172": "Z",
-     "150": "C",
-     "136": "T",
-     "141": "F",
-     "123": "V",
-     "74": "E",
-     "12": "Q",
-     "27": "U",
-     "42": "I",
-     "56": "H",
-     "111": "O"
-  }  
+ "gridsize": "15x15",  
+ "source": "Games Magazine, Aug 2011, p 19",  
+ "grid": "*****.*****.********.*****.**************.***..****.***.***********.***********.****.****.***.****.***....*************....***.****.***.****.****.***********.***********.***.****..***.**************.*****.********.*****.*****",  
+ "gridlets": {
+    "21": "B",
+    "50": "N",
+    "172": "Z",
+    "150": "C",
+    "136": "T",
+    "141": "F",
+    "123": "V",
+    "74": "E",
+    "12": "Q",
+    "27": "U",
+    "42": "I",
+    "56": "H",
+    "111": "O"
+ }  
 }  
-
+</pre>
+  
 ### File structure: 
+<pre>
 Crossword/  
-- xwordclass.py  
-- README.md  
-- json/  
--- puzzdata.json  
-
+|- xwordclass.py  
+|- README.md  
+|- json/  
+|-- puzzdata.json  
+</pre>
 ### Sample output:  
 >Small demonstration  
 >  
